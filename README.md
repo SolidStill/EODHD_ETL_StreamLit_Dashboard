@@ -1,10 +1,8 @@
-# 🎈 Blank app template
+# 🎈 Dashbund Sovereign Bond Yield Tracker App
 
-A simple Streamlit app template for you to modify!
+A simple Streamlit app connecting to my ETL DB that displays multiple bonds simultaneously on a single chart. The selected instruments also have their respective rows from the DB summary table displayed - displaying moving averages and their differentials vs current prices.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
+The credentials file is not currently shared with this repo for obvious reasons - as such this is not currently viewable on public systems. That being said, all that is required to demo this app when credentials are supplied is the following:
 
 1. Install the requirements
 
@@ -15,5 +13,5 @@ A simple Streamlit app template for you to modify!
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   $ streamlit run dashbund.py
    ```

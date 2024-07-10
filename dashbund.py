@@ -140,4 +140,3 @@ if selected_chart_tables:
             - **Column 3**: diff_maX = the latest yield - the maX.
             - **Column N**: Explanation of what data column N represents.
             """)
-
