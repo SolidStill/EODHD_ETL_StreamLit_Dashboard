@@ -135,8 +135,7 @@ if selected_chart_tables:
             # Key for Summary Data Columns
             st.markdown("""
             **Key for Summary Data Columns:**
-            - **Column 1**: num_yield_reports is the number of available yield observations in the db.
-            - **Column 2**: maX = the average of the X latest yield observations.
-            - **Column 3**: diff_maX = the latest yield - the maX.
-            - **Column N**: Explanation of what data column N represents.
+            - num_yield_reports is the number of available yield observations in the db.
+            - maX = the average of the X latest yield observations.
+            - diff_maX = the latest yield - the maX.
             """)
